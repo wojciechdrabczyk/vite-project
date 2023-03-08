@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  max-width: 800px;
 }
 
 body {
@@ -40,11 +41,11 @@ section {
   margin-top: 0;
 }
 
-.photo-container {
+.card--container {
   position: relative;
   color: black;
 }
-.text {
+.card--text {
   padding: 4px;
   position: absolute;
   top: 10px;
@@ -52,7 +53,20 @@ section {
   background-color: white;
   border-radius: 7px;
 }
+.card--info {
+  margin-left: 15px;
+}
 .card--photo {
   border-radius: 9px;
   margin-left: 15px;
+}
+.card--star--rating {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
 }
